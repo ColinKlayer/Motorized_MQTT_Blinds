@@ -23,7 +23,7 @@
 #define STEPPER_MICROSTEPPING     0                   //Defines microstepping 0 = no microstepping, 1 = 1/2 stepping, 2 = 1/4 stepping 
 #define DRIVER_INVERTED_SLEEP     1                   //Defines sleep while pin high.  If your motor will not rotate freely when on boot, comment this line out.
 
-#define STEPS_TO_CLOSE            12                  //Defines the number of steps needed to open or close fully
+#define STEPS_TO_CLOSE            27                  //Defines the number of steps needed to open or close fully. Originally set to 12 
 
 #define STEPPER_DIR_PIN           D6
 #define STEPPER_STEP_PIN          D7
